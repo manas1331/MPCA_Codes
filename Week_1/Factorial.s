@@ -4,6 +4,7 @@
 mov r0,#6
 mov r5,r0
 sub r1,r0,#1
+
 loop:cmp r0,#1
 beq end
 mul r3,r1,r0
