@@ -1,10 +1,14 @@
+;Write an ALP to check whether the given number has odd or even number of 1’s (Even Parity and Odd Parity). 
+
 .data
     A: .word 0
     B: .word 1
+    
 .text
     mov R0, #3
     mov R1, #1
     mov R3, #2
+    
 loop:
 eor R0, R0, R0, LSR R1
 mul R4, R1, R3
