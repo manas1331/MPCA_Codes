@@ -1,3 +1,4 @@
+;Write a program to search for an element in an array using binary search technique.
 .data
     A: .BYTE 1,2,3,4,5,9,10,11,12,14
 .text
