@@ -1,3 +1,5 @@
+;Write an ALP to perform Convolution using MLA instruction (Addition of multiplication of respective numbers of loc A and loc B).
+
 .data
 A: .word 7,18,10,6
 B: .word 10,20,5,7
