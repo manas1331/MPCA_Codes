@@ -1,3 +1,5 @@
+;Write an ALP to perform Convolution using MUL instruction (Addition of multiplication of respective numbers of loc A and loc B)
+
 .data
 A: .word 1,3,6,8
 B: .word 3,4,5,10
