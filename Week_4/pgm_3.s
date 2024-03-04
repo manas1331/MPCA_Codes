@@ -1,3 +1,5 @@
+;Write an ALP to find the length of a given string
+
 .data
     STRING: .ASCIZ "HELLO EVERYONE!"
 .text
