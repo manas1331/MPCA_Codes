@@ -1,3 +1,5 @@
+;Write an ALP to implement Sum[i]+=a[i][j]
+
 .data
 Array:.word 3,4,5
 .word 9,8,10
