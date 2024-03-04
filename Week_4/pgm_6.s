@@ -1,3 +1,5 @@
+;Write a program in ARM7TDMI-ISA to generate a diagonal matrix.
+
 .data
 Diagonal:.word 0
 
