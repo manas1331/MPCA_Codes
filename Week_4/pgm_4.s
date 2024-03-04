@@ -1,3 +1,5 @@
+;Write an ALP to copy string from one location to another
+
 .data
     STRING: .ASCIZ "PES University Students!"
     COPY: .ASCIZ ""
