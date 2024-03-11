@@ -1,4 +1,5 @@
 ;Write a program to search for an element in an array using binary search technique.
+
 .data
     A: .BYTE 1,2,3,4,5,9,10,11,12,14
 .text
@@ -8,6 +9,7 @@
     MOV R3, #0 ;min
     MOV R4, #9 ;max
     MOV R8, #0
+    
     loop:
         CMP R4, R3
         BMI exit ;min>high
@@ -20,12 +22,15 @@
         SUB R6, R6, #1
         MOV R4, R6
         B loop
+        
     found:
         MOV R2, R6
         SWI 0x011
+        
     lesser:
         ADD R6, R6,#1
         MOV R3, R6
         B loop
+        
     exit:
         SWI 0x011
