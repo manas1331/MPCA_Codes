@@ -8,6 +8,7 @@ B: .word 3,4,5,10
 mov r4,#4
 ldr r0,=A
 ldr r1,=B
+
 loop:
 ldr r5,[r0]
 ldr r6,[r1]
@@ -18,6 +19,7 @@ add r1,r1,#4
 sub r4,r4,#1
 cmp r4,#0
 bne loop
+
 SWI 0x011 
 
 
