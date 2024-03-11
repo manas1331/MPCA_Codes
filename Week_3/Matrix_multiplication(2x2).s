@@ -12,6 +12,7 @@ LDR R6,=B
 LDR R7,=C
 MOV R3, #4 ; number of elements in matrix
 MOV R4, #0
+
 Loop:
 LDR R1, [R5], #4
 LDR R2, [R6], #4
@@ -20,4 +21,5 @@ STR R0, [R7], #4
 SUB R3, R3, #1
 TEQ R3, #0 ; Check for equality
 BNE Loop
+
 SWI 0x11
